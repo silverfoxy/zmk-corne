@@ -13,22 +13,22 @@
         compatible = "zmk,combos";
 
         shift {
-            bindings = <&kp LSHIFT>;
+            bindings = <&sk LEFT_SHIFT>;
             key-positions = <16 19>;
         };
 
         Ctrl {
-            bindings = <&kp LEFT_CONTROL>;
+            bindings = <&sk LEFT_CONTROL>;
             key-positions = <15 20>;
         };
 
         Alt {
-            bindings = <&kp LEFT_ALT>;
+            bindings = <&sk LEFT_ALT>;
             key-positions = <14 21>;
         };
 
         Mod {
-            bindings = <&kp LEFT_GUI>;
+            bindings = <&sk LEFT_GUI>;
             key-positions = <28 31>;
         };
     };
