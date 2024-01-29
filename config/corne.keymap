@@ -9,7 +9,28 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
+    combos {
+        compatible = "zmk,combos";
+
+        shift {
+            bindings = <&kp LSHIFT>;
+            key-positions = <16 19>;
+        };
+
+        Ctrl {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <15 20>;
+        };
+
+        Alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <14 21>;
+        };
+
+        Mod {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <28 31>;
+        };
     };
 
     keymap {
