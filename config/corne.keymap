@@ -74,10 +74,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp EXCL          &kp AT             &kp HASH              &kp DLLR               &kp PRCNT        &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp COLON         &kp SEMI           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp SINGLE_QUOTE
-&kp LSHFT  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                                &kp LGUI              &trans                 &kp DELETE       &kp RET    &trans     &kp RALT
+&kp GRAVE  &kp EXCL          &kp AT             &kp HASH              &kp DLLR               &kp PRCNT        &kp CARET      &kp AMPS          &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp BSPC
+&kp LCTRL  &kp COLON         &kp SEMI           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp COLON      &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp PLUS   &kp BSLH  &kp SINGLE_QUOTE
+&kp LSHFT  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp SEMICOLON  &kp LEFT_BRACKET  &kp RBKT         &kp EQUAL  &kp PIPE  &kp TILDE
+                                                &kp LGUI              &trans                 &kp DELETE       &kp RET        &trans            &kp RALT
             >;
         };
 
