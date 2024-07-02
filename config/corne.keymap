@@ -32,24 +32,28 @@
             bindings = <&skq LEFT_SHIFT>;
             key-positions = <16 19>;
             timeout-ms = <75>;
+            require-prior-idle-ms = <200>;
         };
 
         Ctrl {
             bindings = <&sk LEFT_CONTROL>;
             key-positions = <15 20>;
             timeout-ms = <75>;
+            require-prior-idle-ms = <200>;
         };
 
         Alt {
             bindings = <&sk LEFT_ALT>;
             key-positions = <14 21>;
             timeout-ms = <75>;
+            require-prior-idle-ms = <200>;
         };
 
         Mod {
             bindings = <&sk LEFT_GUI>;
             key-positions = <28 31>;
             timeout-ms = <75>;
+            require-prior-idle-ms = <200>;
         };
     };
 
