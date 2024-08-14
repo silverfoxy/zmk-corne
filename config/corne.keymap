@@ -54,7 +54,7 @@
         };
 
         r_Alt {
-            bindings = <&kp RIGHT_ALT>;
+            bindings = <&sk RIGHT_ALT>;
             key-positions = <19 20>;
         };
     };
