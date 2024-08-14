@@ -52,6 +52,11 @@
             key-positions = <28 27>;
             require-prior-idle-ms = <200>;
         };
+
+        r_Alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <19 20>;
+        };
     };
 
     keymap {
