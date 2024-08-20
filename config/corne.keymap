@@ -56,7 +56,7 @@
         r_Alt {
             bindings = <&sk RIGHT_ALT>;
             key-positions = <19 20>;
-            require-prior-idle-ms = <200>;
+            require-prior-idle-ms = <350>;
         };
     };
 
