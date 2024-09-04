@@ -49,7 +49,7 @@
 
         Mod {
             bindings = <&sk LEFT_GUI>;
-            key-positions = <16 15>;
+            key-positions = <15 14>;
             require-prior-idle-ms = <200>;
         };
 
