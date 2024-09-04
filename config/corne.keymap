@@ -37,7 +37,7 @@
 
         Ctrl {
             bindings = <&sk LEFT_CONTROL>;
-            key-positions = <28 27>;
+            key-positions = <14 15>;
             require-prior-idle-ms = <200>;
         };
 
@@ -49,7 +49,7 @@
 
         Mod {
             bindings = <&sk LEFT_GUI>;
-            key-positions = <15 14>;
+            key-positions = <27 28>;
             require-prior-idle-ms = <200>;
         };
 
