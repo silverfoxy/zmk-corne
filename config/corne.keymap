@@ -60,7 +60,7 @@
         };
 
         toggle_qwerty {
-            bindings = <&tog 1>;
+            bindings = <&to 1>;
             key-positions = <37 40>;
             timeout-ms = <75>;
             require-prior-idle-ms = <200>;
@@ -68,7 +68,7 @@
         };
 
         toggle_colemakdh {
-            bindings = <&tog 0>;
+            bindings = <&to 0>;
             key-positions = <37 40>;
             timeout-ms = <75>;
             require-prior-idle-ms = <200>;
@@ -100,9 +100,9 @@
         layer_1 {
             display-name = "Qwerty";
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp F                   &kp P                    &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &kp BSPC
-&kp LCTRL   &kp A  &kp R  &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O          &mt DOUBLE_QUOTES SQT
-&sk LSHIFT  &kp Z  &kp X  &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
+&kp TAB     &kp Q  &kp W  &kp E                   &kp R                    &kp T              &kp Y            &kp U             &kp I              &kp O             &kp P          &kp BSPC
+&kp LCTRL   &kp A  &kp S  &mt LEFT_PARENTHESIS D  &mt RIGHT_PARENTHESIS F  &mt SLASH G        &mt COLON H      &mt LEFT_BRACE J  &mt RIGHT_BRACE K  &mt PLUS L        &kp SEMICOLON  &mt DOUBLE_QUOTES SQT
+&sk LSHIFT  &kp Z  &kp X  &mt LEFT_BRACKET C      &mt RIGHT_BRACKET V      &mt BACKSLASH B    &mt SEMICOLON N  &kp M             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
                           &kp LGUI                &mo 2                    &kp SPACE          &kp RET          &mo 3             &kp RALT
             >;
 
