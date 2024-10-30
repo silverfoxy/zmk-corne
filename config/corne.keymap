@@ -74,6 +74,13 @@
             require-prior-idle-ms = <200>;
             layers = <1>;
         };
+
+        sleep {
+            bindings = <&soft_off>;
+            key-positions = <36 41>;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <200>;
+        };
     };
 
     keymap {
@@ -124,7 +131,7 @@
         layer_3 {
             display-name = "Symbols";
             bindings = <
-&kp GRAVE  &kp EXCL          &kp AT             &kp HASH              &kp DLLR               &kp PRCNT        &kp CARET      &kp AMPS          &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp BSPC
+&kp GRAVE  &kp EXCL          &kp AT             &kp HASH              &kp DLLR               &kp PRCNT        &kp CARET      &kp AMPS          &kp ASTERISK     &kp LPAR   &kp RPAR  &kp BSPC
 &kp LCTRL  &kp COLON         &kp SEMI           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp COLON      &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp PLUS   &kp BSLH  &kp SINGLE_QUOTE
 &kp LSHFT  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp SEMICOLON  &kp LEFT_BRACKET  &kp RBKT         &kp EQUAL  &kp PIPE  &kp TILDE
                                                 &kp LGUI              &trans                 &kp DELETE       &kp RET        &trans            &kp RALT
