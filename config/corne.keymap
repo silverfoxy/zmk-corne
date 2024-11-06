@@ -29,13 +29,13 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP";
             #binding-cells = <0>;
-            bindings = <&tap_is_hold 2>, <&to 5>;
+            bindings = <&tap_is_hold 2 LEFT_ALT>, <&to 5>;
         };
 
         tap_is_hold: tap_is_hold {
             compatible = "zmk,behavior-hold-tap";
             label = "TAP_IS_HOLD";
-            bindings = <&mo>, <&none>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <37>;
