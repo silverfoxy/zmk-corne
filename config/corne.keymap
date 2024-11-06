@@ -29,7 +29,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DOUBLE_TAP";
             #binding-cells = <0>;
-            bindings = <&lt 5 LEFT_ALT>, <&tog 5>;
+            bindings = <&lt 2 LEFT_ALT>, <&tog 5>;
         };
     };
 
