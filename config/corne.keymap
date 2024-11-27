@@ -77,6 +77,43 @@
         };
     };
 
+    macros {
+        bt_0: bt_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 0 &to 0>;
+            label = "BT_0";
+        };
+
+        bt_1: bt_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 1 &to 0>;
+            label = "BT_1";
+        };
+
+        bt_2: bt_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 2 &to 0>;
+            label = "BT_2";
+        };
+
+        bt_3: bt_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 3 &to 0>;
+            label = "BT_3";
+        };
+
+        bt_4: bt_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 4 &to 0>;
+            label = "BT_4";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -137,10 +174,10 @@
         layer_4 {
             display-name = "Settings";
             bindings = <
-&to 0       &kp F1        &kp F2        &kp F3        &kp F5        &kp F5          &kp F6  &kp F7       &kp F8  &kp F9  &kp F10  &kp F11
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &key_repeat  &trans  &trans  &trans   &kp F12
-&bt BT_CLR  &trans        &trans        &trans        &trans        &trans          &trans  &trans       &trans  &trans  &trans   &trans
-                                        &trans        &mo 2         &trans          &trans  &mo 3        &trans
+&to 0       &kp F1  &kp F2  &kp F3  &kp F5  &kp F5    &kp F6  &kp F7       &kp F8  &kp F9  &kp F10  &kp F11
+&trans      &bt_0   &bt_1   &bt_2   &bt_3   &bt_4     &trans  &key_repeat  &trans  &trans  &trans   &kp F12
+&bt BT_CLR  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans  &trans  &trans   &trans
+                            &trans  &mo 2   &trans    &trans  &mo 3        &trans
             >;
 
             label = "Settings";
