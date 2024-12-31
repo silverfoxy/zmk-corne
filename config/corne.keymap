@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &mt {
     flavor = "tap-preferred";
@@ -138,21 +139,21 @@
         copy_mac: copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp C>;
+            bindings = <&sk LEFT_COMMAND &kp C>;
             label = "COPY";
         };
 
         paste_mac: paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp V>;
+            bindings = <&sk LEFT_COMMAND &kp V>;
             label = "PASTE";
         };
 
         cut_mac: cut_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp X>;
+            bindings = <&sk LEFT_COMMAND &kp X>;
             label = "CUT_MAC";
         };
     };
