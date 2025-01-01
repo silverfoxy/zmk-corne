@@ -31,7 +31,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DT_COPY";
             #binding-cells = <0>;
-            bindings = <&mt LEFT_BRACKET C>, <&copy_mac>;
+            bindings = <&kp W>, <&copy_mac>;
         };
 
         dt_paste: dt_paste {
@@ -170,9 +170,9 @@
 
             display-name = "Colemak";
             bindings = <
-&kp TAB     &kp Q        &kp W        &kp F                   &dt_paste                &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &kp BSPC
+&kp TAB     &kp Q        &dt_copy     &kp F                   &dt_paste                &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &kp BSPC
 &kp TAB     &mt LC(A) A  &mt LC(S) R  &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O          &mt DOUBLE_QUOTES SQT
-&sk LSHIFT  &kp Z        &dt_cut      &dt_copy                &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
+&sk LSHIFT  &kp Z        &dt_cut      &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
                                       &kp LGUI                &mo 2                    &kp SPACE          &kp RET          &mo 3             &kp RALT
             >;
 
