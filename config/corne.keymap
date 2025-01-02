@@ -47,6 +47,39 @@
             #binding-cells = <0>;
             bindings = <&kp X>, <&cut_mac>;
         };
+
+        ht_copy_mac: ht_copy_mac {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_COPY_MAC";
+            bindings = <&copy_mac>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <500>;
+            flavor = "tap-preferred";
+        };
+
+        ht_cut_mac: ht_cut_mac {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_CUT_MAC";
+            bindings = <&cut_mac>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <500>;
+            flavor = "tap-preferred";
+        };
+
+        ht_paste_mac: ht_paste_mac {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_PASTE_MAC";
+            bindings = <&paste_mac>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <500>;
+            flavor = "tap-preferred";
+        };
     };
 
     combos {
@@ -170,10 +203,10 @@
 
             display-name = "Colemak";
             bindings = <
-&kp TAB     &kp Q        &dt_copy     &kp F                   &dt_paste                &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &kp BSPC
-&kp TAB     &mt LC(A) A  &mt LC(S) R  &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O          &mt DOUBLE_QUOTES SQT
-&sk LSHIFT  &kp Z        &dt_cut      &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
-                                      &kp LGUI                &mo 2                    &kp SPACE          &kp RET          &mo 3             &kp RALT
+&kp TAB     &kp Q        &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &kp BSPC
+&kp TAB     &mt LC(A) A  &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O          &mt DOUBLE_QUOTES SQT
+&sk LSHIFT  &kp Z        &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
+                                           &kp LGUI                &mo 2                    &kp SPACE          &kp RET          &mo 3             &kp RALT
             >;
 
             label = "Colemak";
