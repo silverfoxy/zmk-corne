@@ -131,6 +131,11 @@
             require-prior-idle-ms = <200>;
             layers = <1>;
         };
+
+        onehand_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <25 38>;
+        };
     };
 
     macros {
