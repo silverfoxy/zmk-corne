@@ -262,10 +262,10 @@
             label = "Rhand";
             display-name = "Rhand";
             bindings = <
-&kp J            &kp L        &kp U        &kp Y                   &kp SEMICOLON  &kp BACKSPACE                     &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &kp BSPC
-&mt COLON M      &mt LC(A) A  &mt LC(S) R  &mt LEFT_PARENTHESIS S  &kp O          &mt DOUBLE_QUOTES SINGLE_QUOTE    &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O          &mt DOUBLE_QUOTES SQT
-&mt SEMICOLON K  &kp H        &kp COMMA    &mt EQUAL PERIOD        &kp SLASH      &kp ESCAPE                        &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
-                                           &kp LGUI                &to 0          &kp ENTER                         &kp RET          &mo 3             &kp RALT
+&kp BACKSPACE          &kp SEMICOLON  &kp Y             &kp U              &kp L             &kp J              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &kp BSPC
+&mt DOUBLE_QUOTES SQT  &kp O          &mt LC(PLUS) I    &mt RIGHT_BRACE E  &mt LEFT_BRACE N  &mt COLON M        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O          &mt DOUBLE_QUOTES SQT
+&kp ESCAPE             &kp SLASH      &mt PERIOD EQUAL  &kp COMMA          &kp H             &mt SEMICOLON K    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
+                                                        &to 0              &mo 0             &kp ENTER          &kp RET          &mo 3             &kp RALT
             >;
         };
 
