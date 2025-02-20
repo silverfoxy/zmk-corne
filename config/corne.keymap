@@ -203,13 +203,6 @@
             bindings = <&sk LEFT_COMMAND &kp X>;
             label = "CUT_MAC";
         };
-
-        tmux_scroll: tmux_scroll {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(S) &kp LEFT_BRACKET>;
-            label = "TMUX_SCROLL";
-        };
     };
 
     keymap {
