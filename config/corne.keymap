@@ -321,10 +321,10 @@
         Settings {
             display-name = "Settings";
             bindings = <
-&to 0       &kp F1  &kp F2  &kp F3  &kp F5  &kp F5    &kp F6  &kp F7       &kp F8  &kp F9  &kp F10  &kp F11
-&trans      &bt_0   &bt_1   &bt_2   &bt_3   &bt_4     &trans  &key_repeat  &trans  &trans  &trans   &kp F12
-&bt BT_CLR  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans  &trans  &trans   &trans
-                            &trans  &mo 5   &trans    &trans  &mo 5        &trans
+&to 0       &kp F1  &kp F2  &kp F3  &kp F5  &kp F5       &kp F6  &kp F7       &kp F8  &kp F9  &kp F10  &kp F11
+&trans      &bt_0   &bt_1   &bt_2   &bt_3   &bt_4        &trans  &key_repeat  &trans  &trans  &trans   &kp F12
+&bt BT_CLR  &trans  &trans  &trans  &trans  &soft_off    &trans  &trans       &trans  &trans  &trans   &trans
+                            &trans  &mo 5   &trans       &trans  &mo 5        &trans
             >;
 
             label = "Settings";
