@@ -1,0 +1,6 @@
+\ {
+    soft-off-wakers {
+      compatible = "zmk,soft-off-wakeup-source";
+      wakeup-sources = <kscan0>;
+    };
+};
