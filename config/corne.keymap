@@ -297,7 +297,7 @@
         Numbers {
             display-name = "Numbers";
             bindings = <
-&kp TILDE       &kp N1         &kp N2          &kp N3        &kp N4           &kp N5        &kp N6         &kp N7          &kp N8         &kp N9  &kp N0  &kp BSPC
+&kp GRAVE       &kp N1         &kp N2          &kp N3        &kp N4           &kp N5        &kp N6         &kp N7          &kp N8         &kp N9  &kp N0  &kp BSPC
 &kp CAPSLOCK    &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME      &caps_word     &kp H           &kp J          &kp K   &kp L   &kp DOUBLE_QUOTES
 &sk LEFT_SHIFT  &kp BACKSPACE  &kp PAGE_DOWN   &kp PAGE_UP   &key_repeat      &kp END       &kp MINUS      &kp UNDERSCORE  &kp LESS_THAN  &kp GT  &trans  &kp QUESTION
                                                &kp LGUI      &trans           &kp DELETE    &kp BACKSPACE  &trans          &tog 7
@@ -309,7 +309,7 @@
         Symbols {
             display-name = "Symbols";
             bindings = <
-&kp GRAVE  &kp EXCL          &kp AT             &kp HASH              &kp DLLR               &kp PRCNT        &kp CARET      &kp AMPS          &kp ASTERISK     &kp LPAR   &kp RPAR  &kp BSPC
+&kp TILDE  &kp EXCL          &kp AT             &kp HASH              &kp DLLR               &kp PRCNT        &kp CARET      &kp AMPS          &kp ASTERISK     &kp LPAR   &kp RPAR  &kp BSPC
 &kp LCTRL  &kp COLON         &kp SEMI           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp COLON      &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp PLUS   &kp BSLH  &kp SINGLE_QUOTE
 &kp LSHFT  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp SEMICOLON  &kp LEFT_BRACKET  &kp RBKT         &kp EQUAL  &kp PIPE  &kp TILDE
                                                 &tog 6                &trans                 &kp DELETE       &kp RET        &trans            &kp RALT
