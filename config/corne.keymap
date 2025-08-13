@@ -19,6 +19,11 @@
     require-prior-idle-ms = <100>;
 };
 
+&mmv {
+    delay-ms = <0>;
+    acceleration-exponent = <0>;
+};
+
 / {
     behaviors {
         skq: skq {
