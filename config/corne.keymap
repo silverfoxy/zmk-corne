@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1000  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #include <dt-bindings/zmk/mouse.h>
@@ -21,7 +21,7 @@
 
 &mmv {
     delay-ms = <0>;
-    acceleration-exponent = <10>;
+    acceleration-exponent = <2>;
     time-to-max-speed-ms = <300>;
 };
 
