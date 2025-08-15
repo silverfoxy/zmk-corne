@@ -21,7 +21,7 @@
 
 &mmv {
     delay-ms = <0>;
-    acceleration-exponent = <0>;
+    acceleration-exponent = <1>;
 };
 
 / {
