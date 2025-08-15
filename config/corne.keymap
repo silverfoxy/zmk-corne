@@ -119,6 +119,7 @@
             key-positions = <16 15>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
+            layers = <0 1>;
         };
 
         Ctrl {
@@ -126,6 +127,7 @@
             key-positions = <14 15>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
+            layers = <0 1>;
         };
 
         Alt {
@@ -133,6 +135,7 @@
             key-positions = <14 13>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
+            layers = <0 1>;
         };
 
         Mod {
@@ -140,6 +143,7 @@
             key-positions = <27 28>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
+            layers = <0 1>;
         };
 
         r_Alt {
@@ -147,6 +151,7 @@
             key-positions = <19 20>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
+            layers = <0 1>;
         };
 
         toggle_qwerty {
@@ -170,6 +175,7 @@
             key-positions = <20 21>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
+            layers = <0 1>;
         };
 
         r_Shift {
@@ -177,6 +183,7 @@
             key-positions = <21 22>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
+            layers = <0 1>;
         };
 
         r_Mod {
@@ -184,6 +191,7 @@
             key-positions = <31 32>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
+            layers = <0 1>;
         };
     };
 
