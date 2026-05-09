@@ -21,6 +21,6 @@ include:
   - board: nice_nano/nrf52840/zmk
     shield: corne_left nice_view_adapter nice_view
   - board: nice_nano/nrf52840/zmk
-    shield: corne_right nice_view_adapter nice_view_custom
+    shield: corne_right nice_view_adapter nice_view
   - board: nice_nano/nrf52840/zmk
     shield: settings_reset
