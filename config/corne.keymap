@@ -118,7 +118,7 @@
 
         Shift {
             bindings = <&skq LEFT_SHIFT>;
-            key-positions = <13 12>;
+            key-positions = <16 15>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
             layers = <0 1>;
@@ -126,7 +126,7 @@
 
         Ctrl {
             bindings = <&sk LEFT_CONTROL>;
-            key-positions = <11 12>;
+            key-positions = <14 15>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
             layers = <0 1>;
@@ -134,7 +134,7 @@
 
         Alt {
             bindings = <&sk LEFT_ALT>;
-            key-positions = <11 10>;
+            key-positions = <14 13>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
             layers = <0 1>;
@@ -142,7 +142,7 @@
 
         Mod {
             bindings = <&sk LEFT_GUI>;
-            key-positions = <22 23>;
+            key-positions = <27 28>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
             layers = <0 1>;
@@ -150,7 +150,7 @@
 
         r_Alt {
             bindings = <&sk LEFT_ALT>;
-            key-positions = <16 17>;
+            key-positions = <19 20>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
             layers = <0 1>;
@@ -158,7 +158,7 @@
 
         toggle_qwerty {
             bindings = <&to 1>;
-            key-positions = <31 34>;
+            key-positions = <37 40>;
             timeout-ms = <75>;
             require-prior-idle-ms = <350>;
             layers = <0>;
@@ -166,7 +166,7 @@
 
         toggle_colemakdh {
             bindings = <&to 0>;
-            key-positions = <31 34>;
+            key-positions = <37 40>;
             timeout-ms = <75>;
             require-prior-idle-ms = <350>;
             layers = <1>;
@@ -174,7 +174,7 @@
 
         r_Ctrl {
             bindings = <&sk RIGHT_CONTROL>;
-            key-positions = <17 18>;
+            key-positions = <20 21>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
             layers = <0 1>;
@@ -182,7 +182,7 @@
 
         r_Shift {
             bindings = <&sk RIGHT_SHIFT>;
-            key-positions = <18 19>;
+            key-positions = <21 22>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
             layers = <0 1>;
@@ -190,7 +190,7 @@
 
         r_Mod {
             bindings = <&sk RIGHT_GUI>;
-            key-positions = <26 27>;
+            key-positions = <31 32>;
             require-prior-idle-ms = <250>;
             timeout-ms = <200>;
             layers = <0 1>;
@@ -274,10 +274,10 @@
 
             display-name = "Colemak";
             bindings = <
-&kp Q             &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON
-&mt LC(A) A       &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &mt LC(O) O
-&ht_tmx_scrl 0 Z  &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH
-                                  &hold_tap_layer LGUI 2  &mo 4                    &kp SPACE          &kp RET          &mo 5             &kp RALT
+&trans  &kp Q             &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &trans
+&trans  &mt LC(A) A       &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &mt LC(O) O    &trans
+&trans  &ht_tmx_scrl 0 Z  &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &trans
+                                            &hold_tap_layer LGUI 2  &mo 4                    &kp SPACE          &kp RET          &mo 5             &kp RALT
             >;
 
             label = "Colemak";
@@ -286,10 +286,10 @@
         Qwerty {
             display-name = "Qwerty";
             bindings = <
-&kp Q  &kp W  &kp E                   &kp R                    &kp T              &kp Y            &kp U             &kp I              &kp O             &kp P
-&kp A  &kp S  &mt LEFT_PARENTHESIS D  &mt RIGHT_PARENTHESIS F  &mt SLASH G        &mt COLON H      &mt LEFT_BRACE J  &mt RIGHT_BRACE K  &mt PLUS L        &kp SEMICOLON
-&kp Z  &kp X  &mt LEFT_BRACKET C      &mt RIGHT_BRACKET V      &mt BACKSLASH B    &mt SEMICOLON N  &kp M             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH
-                    &kp LGUI                &mo 4                    &kp SPACE          &kp RET          &mo 5             &kp RALT
+&kp TAB     &kp Q  &kp W  &kp E                   &kp R                    &kp T              &kp Y            &kp U             &kp I              &kp O             &kp P          &kp BSPC
+&kp TAB     &kp A  &kp S  &mt LEFT_PARENTHESIS D  &mt RIGHT_PARENTHESIS F  &mt SLASH G        &mt COLON H      &mt LEFT_BRACE J  &mt RIGHT_BRACE K  &mt PLUS L        &kp SEMICOLON  &mt DOUBLE_QUOTES SQT
+&sk LSHIFT  &kp Z  &kp X  &mt LEFT_BRACKET C      &mt RIGHT_BRACKET V      &mt BACKSLASH B    &mt SEMICOLON N  &kp M             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
+                          &kp LGUI                &mo 4                    &kp SPACE          &kp RET          &mo 5             &kp RALT
             >;
 
             label = "Qwerty";
@@ -299,10 +299,10 @@
             label = "Rhand";
             display-name = "Rhand";
             bindings = <
-&kp SEMICOLON  &kp Y             &kp U              &kp L             &kp J              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON
-&kp O          &mt LC(PLUS) I    &mt RIGHT_BRACE E  &mt LEFT_BRACE N  &mt COLON M        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O
-&kp SLASH      &mt PERIOD EQUAL  &kp COMMA          &kp H             &mt SEMICOLON K    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH
-                                          &to 0              &mo 3             &kp ENTER          &kp RET          &mo 5             &kp RALT
+&kp BACKSPACE          &kp SEMICOLON  &kp Y             &kp U              &kp L             &kp J              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &kp BSPC
+&mt DOUBLE_QUOTES SQT  &kp O          &mt LC(PLUS) I    &mt RIGHT_BRACE E  &mt LEFT_BRACE N  &mt COLON M        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O          &mt DOUBLE_QUOTES SQT
+&kp ESCAPE             &kp SLASH      &mt PERIOD EQUAL  &kp COMMA          &kp H             &mt SEMICOLON K    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
+                                                        &to 0              &mo 3             &kp ENTER          &kp RET          &mo 5             &kp RALT
             >;
         };
 
@@ -310,20 +310,20 @@
             label = "Lhand";
             display-name = "LHand";
             bindings = <
-&kp Q        &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON
-&mt LC(A) A  &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O
-&kp Z        &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH
-                                     &hold_tap_layer LGUI 4  &trans                   &kp SPACE          &kp RET          &mo 5             &kp RALT
+&kp TAB     &kp Q        &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMICOLON  &kp BSPC
+&kp TAB     &mt LC(A) A  &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &kp O          &mt DOUBLE_QUOTES SQT
+&sk LSHIFT  &kp Z        &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp FSLH       &kp ESC
+                                           &hold_tap_layer LGUI 4  &trans                   &kp SPACE          &kp RET          &mo 5             &kp RALT
             >;
         };
 
         Numbers {
             display-name = "Numbers";
             bindings = <
-&kp N1         &kp N2          &kp N3        &kp N4           &kp N5        &kp N6         &kp N7          &kp N8         &kp N9  &kp N0
-&kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME      &caps_word     &kp H           &kp J          &kp K   &kp L
-&kp BACKSPACE  &kp PAGE_DOWN   &kp PAGE_UP   &key_repeat      &kp END       &kp MINUS      &kp UNDERSCORE  &kp LESS_THAN  &kp GT  &kp QUESTION
-                             &kp LGUI      &trans           &kp DELETE    &kp BACKSPACE  &trans          &tog 7
+&trans  &kp N1         &kp N2          &kp N3        &kp N4           &kp N5        &kp N6         &kp N7          &kp N8         &kp N9  &kp N0        &trans
+&trans  &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME      &caps_word     &kp H           &kp J          &kp K   &kp L         &trans
+&trans  &kp BACKSPACE  &kp PAGE_DOWN   &kp PAGE_UP   &key_repeat      &kp END       &kp MINUS      &kp UNDERSCORE  &kp LESS_THAN  &kp GT  &kp QUESTION  &trans
+                                       &kp LGUI      &trans           &kp DELETE    &kp BACKSPACE  &trans          &tog 7
             >;
 
             label = "Numbers";
@@ -332,10 +332,10 @@
         Symbols {
             display-name = "Symbols";
             bindings = <
-&kp EXCL          &kp AT             &kp HASH              &kp DLLR               &kp PRCNT        &kp CARET      &kp AMPS        &kp ASTERISK     &kp LPAR   &kp RPAR
-&kp TAB           &kp GRAVE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp COLON      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PLUS   &kp ESCAPE
-&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp SEMICOLON  &kp PIPE        &kp CAPS         &kp EQUAL  &kp TILDE
-                                       &tog 6                &trans                 &kp DELETE       &kp RET        &trans          &kp RALT
+&trans  &kp EXCL          &kp AT             &kp HASH              &kp DLLR               &kp PRCNT        &kp CARET      &kp AMPS        &kp ASTERISK     &kp LPAR   &kp RPAR    &trans
+&trans  &kp TAB           &kp GRAVE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp COLON      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PLUS   &kp ESCAPE  &trans
+&trans  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp SEMICOLON  &kp PIPE        &kp CAPS         &kp EQUAL  &kp TILDE   &trans
+                                             &tog 6                &trans                 &kp DELETE       &kp RET        &trans          &kp RALT
             >;
 
             label = "Symbols";
@@ -344,10 +344,10 @@
         Settings {
             display-name = "Settings";
             bindings = <
-&kp F1  &kp F2  &kp F3            &kp F5             &kp F5       &kp F6  &kp F7       &kp F8  &kp F9  &kp F10  &kp F11
-&bt_0   &bt_1   &bt_2             &bt_3              &bt_4        &trans  &key_repeat  &trans  &trans  &trans   &kp F12
-&bt BT_CLR  &trans  &ext_power EP_ON  &ext_power EP_OFF  &soft_off    &trans  &trans       &trans  &trans  &to 0    &trans
-                  &trans            &mo 5              &trans       &trans  &mo 5        &trans
+&to 0       &kp F1  &kp F2  &kp F3            &kp F5             &kp F5       &kp F6  &kp F7       &kp F8  &kp F9  &kp F10  &kp F11
+&trans      &bt_0   &bt_1   &bt_2             &bt_3              &bt_4        &trans  &key_repeat  &trans  &trans  &trans   &kp F12
+&bt BT_CLR  &trans  &trans  &ext_power EP_ON  &ext_power EP_OFF  &soft_off    &trans  &trans       &trans  &trans  &to 0    &trans
+                            &trans            &mo 5              &trans       &trans  &mo 5        &trans
             >;
 
             label = "Settings";
@@ -355,10 +355,10 @@
 
         Mouse {
             bindings = <
-&to 0   &trans          &mmv MOVE_UP    &trans           &trans       &trans     &trans          &trans          &trans        &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
-&trans  &trans          &trans          &mkp LCLK        &mkp RCLK    &trans     &trans          &trans          &trans        &to 0
-                      &trans          &mo 5            &mkp RCLK    &mkp LCLK  &mo 5           &trans
+&trans  &to 0   &trans          &mmv MOVE_UP    &trans           &trans       &trans     &trans          &trans          &trans        &trans           &trans
+&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans       &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans  &trans  &trans          &trans          &mkp LCLK        &mkp RCLK    &trans     &trans          &trans          &trans        &to 0            &trans
+                                &trans          &mo 5            &mkp RCLK    &mkp LCLK  &mo 5           &trans
             >;
 
             label = "Mouse";
